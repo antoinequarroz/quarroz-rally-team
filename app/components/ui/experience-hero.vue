@@ -17,6 +17,10 @@ onMounted(() => {
         return;
     }
 
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        return;
+    }
+
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
         35,
@@ -264,7 +268,7 @@ onMounted(() => {
         <div
             class="pointer-events-none absolute inset-x-0 top-0 z-[1] h-40 bg-[linear-gradient(180deg,rgba(225,29,46,0.13),transparent)]"
         />
-        <div class="absolute inset-0 z-0 pointer-events-none">
+        <div class="pointer-events-none absolute inset-0 z-0 hidden md:block">
             <div ref="canvasHostRef" class="h-full w-full" />
         </div>
 
