@@ -22,13 +22,13 @@ watch(
 <template>
   <header class="sticky top-0 z-50 border-b border-black/10 bg-white/90 backdrop-blur dark:border-white/10 dark:bg-rally-ink/90">
     <nav class="section-container flex h-16 items-center justify-between">
-      <NuxtLink :to="localePath('/')" class="flex items-center gap-3" aria-label="Quarroz Rally Team">
+    <NuxtLink :to="localePath('/')" class="flex items-center gap-3" aria-label="Rallye Team Quarroz">
         <span class="grid size-10 place-items-center rounded-md bg-rally-red font-display text-sm font-bold text-white">
-          QRT
+          RTQ
         </span>
         <span class="font-display text-base font-bold leading-none text-rally-ink dark:text-white">
-          Quarroz<br>
-          Rally Team
+          Rallye Team<br>
+          Quarroz
         </span>
       </NuxtLink>
 

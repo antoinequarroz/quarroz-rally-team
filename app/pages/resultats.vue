@@ -16,7 +16,7 @@ if (data.value) {
 
 useSeoMeta({
   title: 'Resultats',
-  description: 'Resultats et historique de course du Quarroz Rally Team.',
+  description: 'Resultats et historique de course du Rallye Team Quarroz.',
 })
 </script>
 

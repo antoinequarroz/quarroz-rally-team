@@ -16,7 +16,7 @@ if (data.value) {
 
 useSeoMeta({
   title: 'Shop',
-  description: 'Boutique supporter du Quarroz Rally Team.',
+  description: 'Boutique supporter du Rallye Team Quarroz.',
 })
 </script>
 

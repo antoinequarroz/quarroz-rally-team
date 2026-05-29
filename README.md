@@ -1,6 +1,6 @@
-# Quarroz Rally Team
+# Rallye Team Quarroz
 
-Site vitrine Nuxt 4 pour le Quarroz Rally Team.
+Site vitrine Nuxt 4 pour le Rallye Team Quarroz.
 
 ## Stack
 

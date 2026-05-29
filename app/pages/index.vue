@@ -16,15 +16,15 @@ if (data.value) {
 
 useSeoMeta({
   title: 'Accueil',
-  description: 'Quarroz Rally Team, equipe valaisanne de rally: calendrier, resultats, sponsors, equipe et boutique supporter.',
-  ogTitle: 'Quarroz Rally Team',
+  description: 'Rallye Team Quarroz, equipe valaisanne de rally: calendrier, resultats, sponsors, equipe et boutique supporter.',
+  ogTitle: 'Rallye Team Quarroz',
   ogDescription: 'Equipe valaisanne de rally avec calendrier, resultats, sponsors et boutique supporter.',
 })
 </script>
 
 <template>
   <div>
-    <SectionsHeroSection />
+    <UiExperienceHero />
     <SectionsTeamPreview :members="store.team" />
     <SectionsCalendarSection :events="store.upcomingEvents" />
     <SectionsResultsSection :results="store.latestResults" />

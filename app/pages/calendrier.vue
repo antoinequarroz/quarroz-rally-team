@@ -16,7 +16,7 @@ if (data.value) {
 
 useSeoMeta({
   title: 'Calendrier',
-  description: 'Calendrier des prochains rallyes du Quarroz Rally Team.',
+  description: 'Calendrier des prochains rallyes du Rallye Team Quarroz.',
 })
 </script>
 

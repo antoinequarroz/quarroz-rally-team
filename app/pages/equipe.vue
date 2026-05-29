@@ -16,7 +16,7 @@ if (data.value) {
 
 useSeoMeta({
   title: 'Equipe',
-  description: 'Presentation du Quarroz Rally Team, equipe valaisanne de rally.',
+  description: 'Presentation du Rallye Team Quarroz, equipe valaisanne de rally.',
 })
 </script>
 

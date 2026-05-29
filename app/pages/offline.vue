@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
   title: 'Hors ligne',
-  description: 'Page hors ligne du Quarroz Rally Team.',
+  description: 'Page hors ligne du Rallye Team Quarroz.',
 })
 </script>
 

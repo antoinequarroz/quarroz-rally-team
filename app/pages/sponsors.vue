@@ -16,7 +16,7 @@ if (data.value) {
 
 useSeoMeta({
   title: 'Sponsors',
-  description: 'Partenaires et offres sponsoring du Quarroz Rally Team.',
+  description: 'Partenaires et offres sponsoring du Rallye Team Quarroz.',
 })
 </script>
 

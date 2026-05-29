@@ -39,10 +39,10 @@ export default defineNuxtConfig({
     registerType: 'autoUpdate',
     injectRegister: 'auto',
     manifest: {
-      name: 'Quarroz Rally Team',
+      name: 'Rallye Team Quarroz',
       short_name: 'QRT',
       id: '/',
-      description: 'Site officiel du Quarroz Rally Team en Valais.',
+      description: 'Site officiel du Rallye Team Quarroz en Valais.',
       theme_color: '#0b0d10',
       background_color: '#0b0d10',
       display: 'standalone',
@@ -69,7 +69,6 @@ export default defineNuxtConfig({
     },
     workbox: {
       globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2}'],
-      navigateFallback: '/',
       navigateFallbackDenylist: [/^\/api\//],
       cleanupOutdatedCaches: true,
       clientsClaim: true,
@@ -106,8 +105,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      titleTemplate: '%s | Quarroz Rally Team',
-      title: 'Quarroz Rally Team',
+      titleTemplate: '%s | Rallye Team Quarroz',
+      title: 'Rallye Team Quarroz',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover' },
@@ -115,12 +114,12 @@ export default defineNuxtConfig({
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         {
           name: 'description',
-          content: 'Quarroz Rally Team: equipe valaisanne de rally, calendrier, resultats, sponsors, actualites et boutique supporter.',
+          content: 'Rallye Team Quarroz: equipe valaisanne de rally, calendrier, resultats, sponsors, actualites et boutique supporter.',
         },
         { name: 'format-detection', content: 'telephone=no' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'Quarroz Rally Team' },
-        { property: 'og:title', content: 'Quarroz Rally Team' },
+        { property: 'og:site_name', content: 'Rallye Team Quarroz' },
+        { property: 'og:title', content: 'Rallye Team Quarroz' },
         { property: 'og:description', content: 'Equipe valaisanne de rally, calendrier, resultats et boutique supporter.' },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],

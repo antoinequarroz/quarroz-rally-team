@@ -13,7 +13,7 @@ const localePath = useLocalePath()
       <div>
         <p class="eyebrow text-rally-yellow">Rally team valaisan</p>
         <h1 class="mt-5 max-w-3xl font-display text-5xl font-bold leading-[0.95] md:text-7xl">
-          Quarroz Rally Team
+          Rallye Team Quarroz
         </h1>
         <p class="mt-6 max-w-2xl text-lg leading-8 text-rally-ice/78">
           Une equipe de passionnes en Valais: calendrier, resultats, sponsors, informations d'equipe et boutique supporter au meme endroit.
@@ -49,7 +49,7 @@ const localePath = useLocalePath()
                 <p class="text-xs text-rally-ice/60">Valais</p>
               </div>
               <div class="rounded bg-white/10 p-3">
-                <p class="font-display text-2xl font-bold">QRT</p>
+          <p class="font-display text-2xl font-bold">RTQ</p>
                 <p class="text-xs text-rally-ice/60">Team</p>
               </div>
             </div>

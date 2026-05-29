@@ -9,7 +9,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: 'mechanics',
-    name: 'Assistance QRT',
+      name: 'Assistance RTQ',
     role: 'Technique',
     description: 'Preparation, controles entre les boucles et suivi de la voiture avant, pendant et apres les rallyes.',
   },
@@ -59,7 +59,7 @@ export const rallyResults: RallyResult[] = [
     id: 'valais-2025',
     eventName: 'Rallye International du Valais',
     date: '2025-10-24',
-    car: 'Voiture rally QRT',
+      car: 'Voiture rally RTQ',
     category: 'A confirmer',
     overallPosition: 'Arrivee',
     classPosition: 'A confirmer',
@@ -69,7 +69,7 @@ export const rallyResults: RallyResult[] = [
     id: 'chablais-2025',
     eventName: 'Rallye du Chablais',
     date: '2025-05-30',
-    car: 'Voiture rally QRT',
+      car: 'Voiture rally RTQ',
     category: 'A confirmer',
     overallPosition: 'Arrivee',
     classPosition: 'A confirmer',
@@ -104,7 +104,7 @@ export const sponsors: Sponsor[] = [
 export const shopProducts: ShopProduct[] = [
   {
     id: 'tshirt-team',
-    name: 'T-shirt Quarroz Rally Team',
+      name: 'T-shirt Rallye Team Quarroz',
     price: 29,
     category: 'textile',
     stock: 'preorder',
@@ -112,11 +112,11 @@ export const shopProducts: ShopProduct[] = [
   },
   {
     id: 'cap-team',
-    name: 'Casquette QRT',
+      name: 'Casquette RTQ',
     price: 25,
     category: 'textile',
     stock: 'preorder',
-    description: 'Casquette noire avec marquage Quarroz Rally Team.',
+      description: 'Casquette noire avec marquage Rallye Team Quarroz.',
   },
   {
     id: 'sticker-pack',
