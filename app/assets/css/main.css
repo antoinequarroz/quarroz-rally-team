@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand: 225 29 46;
+    --scroll-behavior: smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-rally-mist text-rally-ink dark:bg-rally-ink dark:text-rally-ice font-sans transition-colors duration-300;
+    overflow-x: hidden;
+  }
+
+  * {
+    @apply border-rally-graphite/10 dark:border-white/10;
+  }
+
+  ::selection {
+    @apply bg-rally-red/25 text-rally-ink dark:text-white;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-14 md:py-20 lg:py-24;
+  }
+
+  .eyebrow {
+    @apply text-xs font-bold uppercase tracking-[0.22em] text-rally-red;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold leading-tight text-rally-ink dark:text-white md:text-5xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-2xl text-base leading-7 text-rally-graphite/75 dark:text-rally-ice/70 md:text-lg;
+  }
+
+  .panel {
+    @apply rounded-lg border border-black/10 bg-white shadow-panel dark:border-white/10 dark:bg-rally-asphalt dark:shadow-panel-dark;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-rally-red px-5 py-3 text-sm font-bold text-white transition hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-rally-red focus:ring-offset-2 dark:focus:ring-offset-rally-ink;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-rally-ink/15 bg-white px-5 py-3 text-sm font-bold text-rally-ink transition hover:border-rally-red hover:text-rally-red dark:border-white/15 dark:bg-rally-asphalt dark:text-white dark:hover:border-rally-red;
+  }
+
+  .nav-link {
+    @apply text-sm font-semibold text-rally-graphite transition hover:text-rally-red dark:text-rally-ice/80 dark:hover:text-white;
+  }
+
+  .input-field {
+    @apply w-full rounded-md border border-rally-graphite/20 bg-white px-4 py-3 text-rally-ink outline-none transition placeholder:text-rally-graphite/45 focus:border-rally-red focus:ring-2 focus:ring-rally-red/20 dark:border-white/15 dark:bg-rally-asphalt dark:text-white dark:placeholder:text-rally-ice/40;
+  }
+}
